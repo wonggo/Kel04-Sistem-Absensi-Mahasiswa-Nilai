@@ -11,15 +11,20 @@
 <div class="container">
 		<div class="row">
 			<div class="col-sm-8">
-			<h2>Login Mahasiswa UC</h2>
-			<h3>UserName : </h3>
-			<input type="type" class="form-control" name="username" placeholder="Input UserName" >
-			<h3>Password : </h3>
-			<input type="type" class="form-control" name="password" placeholder="Input Password" >
+			<h2>Absensi Mahasiswa UC</h2>
+			<h3>NIM : </h3>
+			<input type="type" class="form-control" name="NIM" placeholder="Input NIM" >
+			<h3>Mata Kuliah : </h3>
+			<input type="type" class="form-control" name="matkul" placeholder="Input Mata Kuliah" >
+			<h3>Hari : </h3>
+			<input type="type" class="form-control" name="hari" placeholder="Input Hari" >
+			<h3>Status : </h3>
+			<input type="type" class="form-control" name="status" placeholder="Input Status" >
 			</div>
+
 			<div class="col-sm-6">
-			<br><button type="button" class="btn btn-link">Forgot the password ?</button>
-			<p class="text-right"><button type="button" class="btn btn-primary">Login</button>
+			<br>
+			<p class="text-right"><button type="button" class="btn btn-primary">Ok</button>
 			<button type="button" class="btn btn-primary">Cancel</button></p>
 
 			</div>

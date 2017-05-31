@@ -11,6 +11,27 @@
 |
 */
 
-Route::get('login', function () {
-    return view('Login');
+Route::get('masuk', function () {
+    return view('login');
 });
+Route::post('masuk', 'ParkiranController@index')->name('login');
+
+Route::get('nilai', function () {
+    return view('inputNilai');
+});
+Route::post('nilai', 'ParkiranController@index')->name('inputNilai');
+
+Route::get('mhs', function () {
+    return view('inputMahasiswa');
+});
+Route::post('mhs', 'ParkiranController@index')->name('inputMahasiswa');
+
+Route::get('absen', function () {
+    return view('inputAbsensi');
+});
+Route::post('absen', 'ParkiranController@index')->name('inputAbsensi');
+
+Route::get('matkul', function () {
+    return view('inputMatkul');
+});
+Route::post('matkul', 'ParkiranController@index')->name('inputMatkul');
